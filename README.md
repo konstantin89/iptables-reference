@@ -10,14 +10,18 @@
 
 Rules that are written in the terminal, are lost after system restart.  
 
-In order to make rules persistent, rules has to be writtent in script that will run in boot time.  
+For more info, please refer the "Rules persistency" chapter in 
+[Reference](doc/Reference.md).
+
 
 </br>  
 
 ## Quick Reference
 
+`iptables` command structure:
 ![](doc/img/iptables_command_reference.PNG)  
 
+`iptables` commands:
 ![](doc/img/iptables_options.PNG)  
 
 
@@ -56,7 +60,7 @@ Remove all rules from input chain (of the default `filter` table).
 sudo iptables -F INPUT
 ```
 
-### Fefault policy definition
+### Default policy definition
 
 Each packet that doesn't maches any rule will have the default policy.  
 In the example below, all the packets in FARWARD chain will be dropped.  
