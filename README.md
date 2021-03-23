@@ -17,6 +17,15 @@ For more info, please refer the "Rules persistency" chapter in
 
 </br>  
 
+## High Level Scheme
+
+Graph taken from [here](https://www.youtube.com/watch?v=yE82upHCxfU).  
+
+![](doc/img/high_level_scheme.PNG)
+
+
+</br>  
+
 ## Quick Reference
 
 `iptables` command structure:
